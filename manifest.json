@@ -1,0 +1,19 @@
+{
+    "manifest_version": 2,
+    "name": "SQLite Wasm Demo Extension MV2",
+    "version": "0.0.1",
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "browser_action": {
+        "default_title": "SQLite Wasm Demo Extension MV2"
+    },
+    "description": "Testing SQLite WASM Demo in a Chrome Extension",
+    "cross_origin_embedder_policy": {
+        "value": "require-corp"
+    },
+    "cross_origin_opener_policy": {
+        "value": "same-origin"
+    },
+    "content_security_policy": "script-src 'self' 'wasm-unsafe-eval'; object-src 'self';"
+}
