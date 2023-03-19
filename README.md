@@ -1,6 +1,6 @@
 # sqlite3-wasm-demo-extension-mv2
 
-This repository takes the sample code from https://github.com/tomayac/sqlite3-wasm-demo/tree/main/public and converts it to run in an MV2 extension.
+This repository takes the sample code from https://github.com/tomayac/sqlite3-wasm-demo/tree/main/public and converts it to run in an MV2 extension. It also has updated files in the `jswasm` directory from the official sqlite-wasm 3.41 release.
 
 To run this code in Firefox:
 * Clone the repository, cd into the top-level directory, and run `web-ext run`.
