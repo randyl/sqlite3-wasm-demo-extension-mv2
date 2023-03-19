@@ -17,7 +17,7 @@ const start = function (sqlite3) {
   log('sqlite3 version', capi.sqlite3_libversion(), capi.sqlite3_sourceid());
   let db;
   if (sqlite3.opfs) {
-    db = new sqlite3.opfs.OpfsDb('/mydb.sqlite3');
+    db = new oo.OpfsDb('/mydb.sqlite3');
     log('The OPFS is available.');
   } else {
     db = new oo.DB('/mydb.sqlite3', 'ct');
